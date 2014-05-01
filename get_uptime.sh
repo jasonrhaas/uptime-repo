@@ -3,10 +3,10 @@
 # This bash script goes out to each server and writes the data in /proc/upti    me
 # to /usr/share/tuptime/$SERVER/uptime for each server
 
-SERVER15='server15'
-SERVER16='server16'
-SERVER29='server29'
-SERVERS=($SERVER15 $SERVER16 $SERVER29)
+SERVER01='server15'
+SERVER02='server16'
+SERVER03='server29'
+SERVERS=($SERVER01 $SERVER02 $SERVER03)
 UPTIME_DIR='/usr/share/tuptime/'
 
 # Check if the uptime directory is there.  If not, make it.
